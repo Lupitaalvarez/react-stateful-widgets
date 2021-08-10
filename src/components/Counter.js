@@ -48,7 +48,7 @@ STEP 6:
 
 import React from 'react'; /* STEP 0 */
 
-export default function Counter() {
+export default function Counter(count, setCount) {
   /* STEP 1 */
 
   const increment = () => {
